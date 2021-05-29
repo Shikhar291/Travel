@@ -19,7 +19,7 @@ app.set('view engine','ejs');
 
 let multer=require('multer');
 
-mongoose.connect('mongodb://localhost/travels',{useUnifiedTopology:true});
+mongoose.connect('mongodb+srv://ShikharSrivastava:Shikhar1234@mycluster.qaagi.mongodb.net/travels',{useUnifiedTopology:true});
 
 let imageStorage=multer.diskStorage(
     {
